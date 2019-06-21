@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.conteiner {
+  width: 1110px;
+  margin: 0 auto;
+  height: 60px;
+  padding-left: 30px;
+}
+.title::first-letter {
+  color: #1abc9c;
+  font-size: 23px;
+}
+.title {
+  font-size: 23px;
+  line-height: 28px;
+  color: #656262;
+  float: left;
+}
+.site-navigations {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  list-style: none;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+.site-navigations li {
+  float: left;
+}
+
+.site-navigations a {
+  text-decoration: none;
+  line-height: 18px;
+  color: #0f0101;
+  font-family: "OpenSans Bold";
+  font-weight: 700;
+}
+.link {
+  text-align: center;
+  text-decoration: none;
+  margin-left: 34px;
+  margin-top: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+.site-navigations a:hover {
+  color: #1abc9c;
+}
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.content {
+  top: 36%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: "Roboto Black Regular", sans-serif;
+  font-weight: 700;
+}
+.content2 {
+  top: 50%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Roboto Light Regular", sans-serif;
+  font-weight: 300;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(91, 88, 87, 0.9);
+}
+.collection-title {
+  font-size: 48px;
+  font-family: "Roboto Black Regular", sans-serif;
+  text-align: center;
+  color: #515151;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.hr {
+  border: none;
+  color: #1abc9c;
+  background-color: #1abc9c;
+  width: 160px;
+  height: 7px;
+  margin-bottom: 80px;
+}
+.collection-product {
+  width: 255px;
+  height: 321px;
+}
+.collection {
+}
