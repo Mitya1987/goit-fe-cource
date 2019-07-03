@@ -1,253 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>nav</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <h1 class="title">mart</h1>
 
-        <nav>
-          <ul class="site-navigations">
-            <li class="name-navigations"><a href="#" class="link">home</a></li>
-            <li class="name-navigations">
-              <a href="#" class="link">about us</a>
-            </li>
-            <li class="name-navigations"><a href="#" class="link">page</a></li>
-            <li class="name-navigations"><a href="#" class="link">shop</a></li>
-            <li class="name-navigations"><a href="#" class="link">blog</a></li>
-            <li class="name-navigations">
-              <a href="#" class="link">contact us</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section class="first-section">
-          <h2 class="article">FEATURED PRODUCT</h2>
-          <hr class="first" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mart</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/1.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#"
-                      >Blue Tshirt
-                    </a>
-                  </h3>
-                  <div class="featured-prod__price">&#36;26</div>
-                </div>
-              </li>
-            </ul>
-          </div>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="nav clearfix">
+        <h1 class="logo">
+          <a href="#" class="logo__link">Mart</a>
+        </h1>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Page</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Shop</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="featured-prod">
+        <h2 class="featured-prod__title section-title">Feature products</h2>
+        <ul class="featured-prod__list clearfix">
+          <li class="featured-prod__item">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/1.png" alt="blue women shoes" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Blue Tshirt </a>
+                </h3>
+                <div class="featured-prod__price">&#36;26</div>
+              </div>
+            </div>
+          </li>
+          <li class="featured-prod__item">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/2.png" alt="Men belt" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Woman Shirt</a>
+                </h3>
+                <div class="featured-prod__price">&#36;31</div>
+              </div>
+            </div>
+          </li>
+          <li class="featured-prod__item">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/3.png" alt="Men hat" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Yellow tshirt</a>
+                </h3>
+                <div class="featured-prod__price">&#36;21</div>
+              </div>
+            </div>
+          </li>
+          <li class="featured-prod__item right-gap-del">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/4.png" alt="Purse" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Cool Lingerie</a>
+                </h3>
+                <div class="featured-prod__price">&#36;56</div>
+              </div>
+            </div>
+          </li>
+          <li class="featured-prod__item">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/5.png" alt="Black purse" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Blue Tshirt</a>
+                </h3>
+                <div class="featured-prod__price">&#36;26</div>
+              </div>
+            </div>
+          </li>
+          <li class="featured-prod__item">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/6.png" alt="Men black belt" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Woman Shirt</a>
+                </h3>
+                <div class="featured-prod__price">&#36;31</div>
+              </div>
+            </div>
+          </li>
+          <li class="featured-prod__item">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/7.png" alt="Man shoes" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Yellow Tshirt</a>
+                </h3>
+                <div class="featured-prod__price">&#36;21</div>
+              </div>
+            </div>
+          </li>
+          <li class="featured-prod__item right-gap-del">
+            <div class="featured-prod__item-wrap">
+              <a href="#" class="featured-prod__link">
+                <img src="./img/8.png" alt="Women sunglasses" width="255" height="282" />
+              </a>
+              <div class="featured-prod__block clearfix">
+                <h3 class="featured-prod__name">
+                  <a class="featured-prod__name-link" href="#">Cool lingerie</a>
+                </h3>
+                <div class="featured-prod__price">&#36;56</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="latest-news clearfix">
+        <h2 class="latest-news__title section-title">Latest news</h2>
+        <article class="latest-news__blog">
+          <img class="latest-news__blog-img" src="./img/ipad.png" alt="show direction on ipad"
+            width="350" height="262" />
+          <h3 class="latest-news__blog-title">
+            Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+          </h3>
+          <p class="latest-news__blog-text">
+            Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+            vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+            Nam nec tellus a odio tincidunt auctor a ornare
+          </p>
+          <a href="#" class="latest-news__blog-btn" role="button">
+            Read More
+          </a>
+        </article>
+        <article class="latest-news__blog">
+          <img class="latest-news__blog-img" src="./img/girls.png" alt="girls study" width="350"
+            height="262" />
+          <h3 class="latest-news__blog-title">
+            Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+          </h3>
+          <p class="latest-news__blog-text">
+            Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+            vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+            Nam nec tellus a odio tincidunt auctor a ornare
+          </p>
+          <a href="#" class="latest-news__blog-btn" role="button">
+            Read More
+          </a>
+        </article>
+        <article class="latest-news__blog">
+          <img class="latest-news__blog-img" src="./img/bus.png" alt="bus" width="350" height="262" />
+          <h3 class="latest-news__blog-title">
+            Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+          </h3>
+          <p class="latest-news__blog-text">
+            Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+            vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+            Nam nec tellus a odio tincidunt auctor a ornare
+          </p>
+          <a href="#" class="latest-news__blog-btn" role="button">
+            Read More
+          </a>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
 
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/2.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#">woman shirt</a>
-                  </h3>
-                  <div class="featured-prod__price">21$</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/3.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#"
-                      >yellow shirt</a
-                    >
-                  </h3>
-                  <div class="featured-prod__price">21$</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/4.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#"
-                      >cool lingerie</a
-                    >
-                  </h3>
-                  <div class="featured-prod__price">56$</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/5.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#">Blue Tshirt</a>
-                  </h3>
-                  <div class="featured-prod__price">26$</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/6.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#">woman shirt</a>
-                  </h3>
-                  <div class="featured-prod__price">31$</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/7.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#"
-                      >yellow shirt</a
-                    >
-                  </h3>
-                  <div class="featured-prod__price">21$</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="featured-product">
-            <ul class="featured_list clearfix">
-              <li class="product_item">
-                <div class="product_item_wrap">
-                  <a href="#" class="product_link">
-                    <img src="./img/8.png" alt="blue shirt" />
-                  </a>
-                </div>
-                <div class="featured-product_block clearfix">
-                  <h3 class="featured-prod__name">
-                    <a class="featured-prod__name-link" href="#"
-                      >cool lingerie</a
-                    >
-                  </h3>
-                  <div class="featured-prod__price">56$</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="article_item">
-          <h3 class="article-2">LATEST NEWS</h3>
-          <hr class="hr" />
-
-          <ul class="news">
-            <li class="latest-news">
-              <img class="img.news" src="./img/11.jpg" alt="the map" />
-              <p class="name-of-news">
-                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-              </p>
-              <hr class="line" />
-              <p class="body-of-news">
-                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
-                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                Nam nec tellus a odio tincidunt auctor a ornare
-              </p>
-              <button class="button">Read more</button>
-            </li>
-          </ul>
-
-          <ul class="news">
-            <li class="latest-news">
-              <img class="img.news" src="./img/12.jpg" alt="the map" />
-              <p class="name-of-news">
-                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-              </p>
-              <hr class="line" />
-              <p class="body-of-news">
-                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
-                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                Nam nec tellus a odio tincidunt auctor a ornare
-              </p>
-              <button class="button">Read more</button>
-            </li>
-          </ul>
-
-          <ul class="news">
-            <li class="latest-news">
-              <img class="img.news" src="./img/13.jpg" alt="the map" />
-              <p class="name-of-news">
-                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-              </p>
-              <hr class="line" />
-              <p class="body-of-news">
-                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
-                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                Nam nec tellus a odio tincidunt auctor a ornare
-              </p>
-              <button class="button">Read more</button>
-            </li>
-          </ul>
-        </section>
-      </main>
-    </div>
-  </body>
 </html>
