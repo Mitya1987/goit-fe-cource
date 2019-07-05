@@ -211,9 +211,9 @@ img {
   bottom: 0;
   transform: translateY(-14%);
   width: 255px;
-  height: 282px;
+  height: 284px;
   background-color: #000;
-  border: 10px solid rgba(250, 250, 250, 0.829);
+  border: 10px solid rgba(250, 250, 250, 0.993);
   opacity: 0;
 }
 
@@ -239,11 +239,9 @@ img {
 .ico1 {
   width: 50px;
   height: 50px;
+  padding: 0;
   border: 1px solid #fff;
-  background-color: #fff;
-  background-image: url(../img/angle-left.svg);
-  background-size: 50px 50px;
-  background-color: #fff;
+  color: #fff;
 }
 
 .ico1:hover {
@@ -253,10 +251,9 @@ img {
 .ico2 {
   width: 50px;
   height: 50px;
+  padding: 0;
   border: 1px solid #fff;
-  background-image: url(../img/angle-left.svg);
-  background-size: 50px 50px;
-  background-color: #fff;
+  color: #fff;
 }
 
 .ico2:hover {
@@ -266,10 +263,9 @@ img {
 .ico3 {
   width: 50px;
   height: 50px;
+  padding: 0;
   border: 1px solid #fff;
-  background-image: url(../img/angle-left.svg);
-  background-size: 50px 50px;
-  background-color: #fff;
+  color: #fff;
 }
 
 .ico3:hover {
@@ -279,15 +275,25 @@ img {
 .ico4 {
   width: 160px;
   height: 50px;
+  padding: 0;
   border: 1px solid #fff;
   margin-top: 3px;
-  background-image: url(../img/angle-left.svg);
-  background-size: 50px 50px;
-  background-color: #fff;
+  color: #fff;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.ico4 span {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 3px;
 }
 
 .ico4:hover {
-  background-color: var(--style-elem-color);
+  background-color: rgb(45, 211, 147);
 }
 
 footer {
@@ -307,6 +313,7 @@ footer {
 span {
   color: #46bfa9;
 }
+
 
 
 
