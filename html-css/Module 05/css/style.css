@@ -84,32 +84,39 @@ img {
   z-index: 1;
 }
 
-.btn {
+.btn1 {
     background-color: rgba(78, 198, 171, 0.3);
     width: 100px;
     height: 100px;
     position: absolute;
+    right: 245px;
     top: 50%;
     transform: translateY(-50%);
     border: none;
     display: inline-block;
     z-index: 3;
+    color: #fff;
   }
-  
-.slider-button-prev {
-  left: 15%;
-  background-size: 100px 100px;
-  background-image: url(../img/angle-left.svg);
-  fill: white;
+
+  .btn2 {
+    background-color: rgba(78, 198, 171, 0.3);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+left: 245px;
+    transform: translateY(-50%);
+    border: none;
+    display: inline-block;
+    z-index: 3;
+    color: #fff;
+  }
+
+.btn1:hover {
+  background-color: rgb(26, 188, 156);
 }
 
-.slider-button-next {
-  right: 15%;
-  background-size: 100px 100px;
-  background-image: url(../img/angle-right.svg);
-}
-
-.btn:hover {
+.btn2:hover {
   background-color: rgb(26, 188, 156);
 }
 
@@ -208,7 +215,7 @@ img {
 
 .button-wrap {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   transform: translateY(-14%);
   width: 255px;
   height: 284px;
@@ -225,11 +232,20 @@ img {
   background-color: var(--style-elem-color);
 }
 
+.icon-wrap {
+  position: absolute;
+  left: 17%;
+  bottom: 115px;
+  opacity: 0;
+}
+
+.product-item-wrap:hover .icon-wrap {
+  opacity: 1;
+}
+
 .button-list {
   width: 166px;
   height: 106px;
-  margin-left: 35px;
-  margin-top: 80px;
 }
 
 .button-list li:not(:last-child) {
@@ -281,6 +297,7 @@ img {
   color: #fff;
   text-align: left;
   padding-left: 12px;
+  background-color: #323232;
 }
 
 .ico4 span {
@@ -289,7 +306,7 @@ img {
   font-size: 14px;
   color: #fff;
   text-transform: uppercase;
-  padding-left: 3px;
+  padding-left: 6px;
 }
 
 .ico4:hover {
