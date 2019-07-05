@@ -161,6 +161,7 @@ img {
   width: 1600px;
   padding-top: 100px;
   background-color: rgb(233, 240, 253);
+  padding-bottom: 94px;
 }
 
 .products {
@@ -253,6 +254,23 @@ img {
   border: 1px solid #fff;
 }
 
+footer {
+  width: 1600px;
+  height: 90px;
+  background-color: rgb(50, 50, 50);
+}
+
+.footer-text {
+  font: 16px/28px 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  padding-top: 31px;
+}
+
+span {
+  color: #46bfa9;
+}
 
 
 
