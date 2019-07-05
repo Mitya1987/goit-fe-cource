@@ -246,6 +246,10 @@ img {
   background-color: #fff;
 }
 
+.ico1:hover {
+  background-color: var(--style-elem-color);
+}
+
 .ico2 {
   width: 50px;
   height: 50px;
@@ -253,6 +257,10 @@ img {
   background-image: url(../img/angle-left.svg);
   background-size: 50px 50px;
   background-color: #fff;
+}
+
+.ico2:hover {
+  background-color: var(--style-elem-color);
 }
 
 .ico3 {
@@ -264,6 +272,10 @@ img {
   background-color: #fff;
 }
 
+.ico3:hover {
+  background-color: var(--style-elem-color);
+}
+
 .ico4 {
   width: 160px;
   height: 50px;
@@ -272,6 +284,10 @@ img {
   background-image: url(../img/angle-left.svg);
   background-size: 50px 50px;
   background-color: #fff;
+}
+
+.ico4:hover {
+  background-color: var(--style-elem-color);
 }
 
 footer {
