@@ -240,18 +240,37 @@ img {
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
+  background-image: url(../img/angle-left.svg);
+  background-size: 50px 50px;
+  background-color: #fff;
 }
 
 .ico2 {
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
+  background-image: url(../img/angle-left.svg);
+  background-size: 50px 50px;
+  background-color: #fff;
 }
 
 .ico3 {
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
+  background-image: url(../img/angle-left.svg);
+  background-size: 50px 50px;
+  background-color: #fff;
+}
+
+.ico4 {
+  width: 160px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-top: 3px;
+  background-image: url(../img/angle-left.svg);
+  background-size: 50px 50px;
+  background-color: #fff;
 }
 
 footer {
