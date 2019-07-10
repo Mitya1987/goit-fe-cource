@@ -77,7 +77,7 @@ img {
 .overlay {
   position: absolute;
   bottom: 0;
-  width: 1600px;
+  width: 100%;
   height: 600px;
   background-color: rgba(0, 0, 2, 0.52);
   z-index: 1;
@@ -164,7 +164,7 @@ left: 245px;
 }
 
 .card {
-  width: 1600px;
+  width: 100%;
   padding-top: 100px;
   background-color: rgb(233, 240, 253);
   padding-bottom: 94px;
@@ -313,7 +313,7 @@ left: 245px;
 }
 
 footer {
-  width: 1600px;
+  width: 100%;
   height: 90px;
   background-color: rgb(50, 50, 50);
 }
