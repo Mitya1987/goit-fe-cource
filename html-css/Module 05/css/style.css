@@ -238,7 +238,8 @@ img {
 }
 
 .product-item-wrap:hover .overlay {
-  opacity: 0.549;
+  opacity: 1;
+  background-color: rgba(0, 0, 2, 0.549);
 }
 
 .product-item-wrap:hover .product-name {
@@ -247,8 +248,9 @@ img {
 
 .icon-wrap {
   position: absolute;
-  left: 17%;
-  bottom: 115px;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
   opacity: 0;
 }
 
