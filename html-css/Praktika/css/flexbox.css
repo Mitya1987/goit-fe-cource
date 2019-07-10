@@ -1,0 +1,41 @@
+/* .flex-conteiner {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    padding: 10px;
+    background-color: #212121;
+}
+
+/* Свойства флекс элемента
+width vs flex-basis
+aligin-self
+flex-grow
+flex-shrink
+order */
+
+/* .flex-child {
+    /* height: 100px; */
+    /* font-size: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.flex-child:nth-child(1) {
+    background-color: #214e34;
+}
+
+.flex-child:nth-child(2) {
+    background-color: #ffb140;
+}
+
+.flex-child:nth-child(3) {
+    background-color: #d1462f;
+}
+
+.flex-child:nth-child(4) {
+    background-color: #197bbd;
+}  */
+
