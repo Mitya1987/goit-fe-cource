@@ -3,8 +3,10 @@
   --style-elem-color: #1abc9c;
 }
 
-body, p, h1 {
-  font-family: 'Open Sans', sans-serif;
+body,
+p,
+h1 {
+  font-family: "Open Sans", sans-serif;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--text-color);
@@ -26,18 +28,21 @@ img {
   margin: 0 auto;
 }
 
-.header-wrap { 
+.header-wrap {
   width: 1100px;
   margin: auto;
-  margin-bottom: 32px; }
-  
+  margin-bottom: 32px;
+}
+
 .logo {
   float: left;
   padding-top: 38px;
   font: 300 30px/32px "Roboto", Arial, sans-serif;
 }
 
-.logo__link { color: var(--text-color); }
+.logo__link {
+  color: var(--text-color);
+}
 
 .logo::first-letter {
   font-weight: 900;
@@ -54,14 +59,18 @@ img {
   margin-right: 34px;
 }
 
-.nav__item:last-child { margin-right: 0; }
+.nav__item:last-child {
+  margin-right: 0;
+}
 
 .nav__link {
   font: 700 14px/11px "OpenSans", Arial, Helvetica, sans-serif;
   color: #000;
 }
 
-.nav__link:hover { color: var(--style-elem-color); }
+.nav__link:hover {
+  color: var(--style-elem-color);
+}
 
 .slider {
   position: relative;
@@ -83,33 +92,35 @@ img {
   z-index: 1;
 }
 
-.btn1 {
-    background-color: rgba(78, 198, 171, 0.3);
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 245px;
-    top: 50%;
-    transform: translateY(-50%);
-    border: none;
-    display: inline-block;
-    z-index: 3;
-    color: #fff;
-  }
+.slider-buttons-wrap {
+  position: absolute;
+  width: 1110px;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 50;
+}
 
-  .btn2 {
-    background-color: rgba(78, 198, 171, 0.3);
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 50%;
-left: 245px;
-    transform: translateY(-50%);
-    border: none;
-    display: inline-block;
-    z-index: 3;
-    color: #fff;
-  }
+.btn1 {
+  float: right;
+  background-color: rgba(78, 198, 171, 0.3);
+  width: 100px;
+  height: 100px;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+  color: #fff;
+}
+
+.btn2 {
+  background-color: rgba(78, 198, 171, 0.3);
+  width: 100px;
+  height: 100px;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+  color: #fff;
+}
 
 .btn1:hover {
   background-color: rgb(26, 188, 156);
@@ -119,32 +130,29 @@ left: 245px;
   background-color: rgb(26, 188, 156);
 }
 
-.text-prev {
+.text-slide {
   position: absolute;
-  font-family: 'Roboto', sans-serif;
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 6px;
-  color: #ffffff;
   transform: translate(-50%, 0);
   left: 50%;
   bottom: 50%;
-  top: 45%;
+  top: 40%;
   z-index: 5;
 }
 
-.text-next {
-  position: absolute;
-  font-family: 'Roboto', sans-serif;
+.text-slide-prev {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 82px;
+  color: #ffffff;
+}
+
+.text-slide-next {
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: lighter;
-  line-height: 15px;
+  line-height: 37px;
   color: #ffffff;
-  transform: translate(-80%, 0);
-  top: 55%;
-  left: 50%;
-  bottom: 50%;
-  z-index: 5;
 }
 
 .section-title {
@@ -156,11 +164,11 @@ left: 245px;
 
 .section-title:after {
   content: "";
-    display: block;
-    width: 164px;
-    height: 7px;
-    background-color: var(--style-elem-color);
-    margin: 32px auto 0;
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: var(--style-elem-color);
+  margin: 32px auto 0;
 }
 
 .card {
@@ -175,7 +183,7 @@ left: 245px;
   margin: auto;
 }
 
-.products li{
+.products li {
   display: inline-block;
   float: left;
 }
@@ -185,7 +193,7 @@ left: 245px;
 }
 
 .product-name {
-  font: 900 18px/32px 'Roboto', sans-serif;
+  font: 900 18px/32px "Roboto", sans-serif;
   background-color: #323232;
   color: #fff;
 }
@@ -300,7 +308,7 @@ left: 245px;
 }
 
 .ico4 span {
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #fff;
@@ -319,7 +327,7 @@ footer {
 }
 
 .footer-text {
-  font: 16px/28px 'Open Sans', sans-serif;
+  font: 16px/28px "Open Sans", sans-serif;
   color: #fff;
   text-align: center;
   text-transform: none;
@@ -329,13 +337,3 @@ footer {
 span {
   color: #46bfa9;
 }
-
-
-
-
-
-
-
-
-
-
