@@ -55,7 +55,7 @@ body {
 }
 
 .nav-menu-item a:hover,
-.nav-menu-item a:focus, {
+.nav-menu-item a:focus {
     color: blue;
 }
 
@@ -97,6 +97,7 @@ body {
     line-height: 24px;
     padding: 18px 40px;
     color: #626262;
+    cursor: pointer;
 }
 
 
