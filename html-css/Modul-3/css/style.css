@@ -106,6 +106,12 @@ body {
     padding: 18px 40px;
     color: #626262;
     cursor: pointer;
+    background-color: Transparent;
+    border: 1px solid #000;
+}
+
+.button-end:hover {
+    color: blue;
 }
 
 
