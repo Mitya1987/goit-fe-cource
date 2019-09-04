@@ -171,12 +171,12 @@ h1 {
 
 .prev {
   left: 0;
-  background-image: url(/Modul-5/img/slider/arrow-left.png);
+  background-image: url(img/slider/arrow-left.png);
 }
 
 .next {
   right: 0;
-  background-image: url(/Modul-5/img/slider/arrow-right.png);
+  background-image: url(img/slider/arrow-right.png);
 }
 
 .btn:hover {
@@ -287,8 +287,6 @@ h2::after {
   color: #ffffff;
   line-height: 1.5;
 }
-
-
 
 .goods-wrapp {
   width: 255px;
