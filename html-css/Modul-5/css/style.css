@@ -109,7 +109,7 @@ h1 {
   position: absolute;
   height: 600px;
   width: 100%;
-  background-image: url(/img/slider/1.jpg);
+  background-image: url(../img/slider/1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -177,12 +177,12 @@ h1 {
 
 .prev {
   left: 0;
-  background-image: url(/img/slider/arrow-left.png);
+  background-image: url(../img/slider/arrow-left.png);
 }
 
 .next {
   right: 0;
-  background-image: url(/img/slider/arrow-right.png);
+  background-image: url(../img/slider/arrow-right.png);
 }
 
 .btn:hover {
