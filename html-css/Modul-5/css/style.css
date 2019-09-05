@@ -26,9 +26,10 @@ h2,
 .slider-text,
 .under-text,
 .goods-title,
-.menu-item {
+.menu-item a {
   text-transform: uppercase;
   font-family: "Roboto Black";
+  color: #323232;
 }
 
 .wrapp {
@@ -69,7 +70,12 @@ h1 {
 
 .menu-item {
   float: left;
-  margin-right: 29px;
+  margin-right: 20px;
+}
+
+.menu {
+  list-style: none;
+  text-decoration: none;
 }
 
 .menu-item a {
@@ -103,7 +109,7 @@ h1 {
   position: absolute;
   height: 600px;
   width: 100%;
-  background-image: url(/Modul-5/img/slider/1.jpg);
+  background-image: url(/img/slider/1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -171,12 +177,12 @@ h1 {
 
 .prev {
   left: 0;
-  background-image: url(img/slider/arrow-left.png);
+  background-image: url(/img/slider/arrow-left.png);
 }
 
 .next {
   right: 0;
-  background-image: url(img/slider/arrow-right.png);
+  background-image: url(/img/slider/arrow-right.png);
 }
 
 .btn:hover {
