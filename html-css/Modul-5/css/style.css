@@ -99,10 +99,10 @@ h1 {
 }
 
 .page-slider {
-    position: relative;
-    max-height: 600px;
-    width: 100%;
-    margin-bottom: 100px;
+  position: relative;
+  max-height: 600px;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .slides {
@@ -116,13 +116,13 @@ h1 {
 }
 
 .page-slider::before {
-  content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    top: 0%;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0%;
+  z-index: 1;
 }
 
 .slider-wrapp {
@@ -208,7 +208,11 @@ h2::after {
   margin-top: 30px;
 }
 
-.products-item  {
+.fetured-products {
+  margin-bottom: 100px;
+}
+
+.products-item {
   width: 255px;
   height: 322px;
   float: left;
@@ -226,20 +230,20 @@ h2::after {
 }
 
 .overlay {
-    position: absolute;
-    width: 235px;
-    height: 261px;
-    top: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
+  position: absolute;
+  width: 235px;
+  height: 261px;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
 }
 
 .products-item:hover .overlay {
   opacity: 1;
 }
 
-.icons-item:hover {
+.icons-item a:hover {
   background-color: rgb(26, 188, 156);
 }
 
@@ -280,18 +284,22 @@ h2::after {
 
 .icons-item:last-child {
   width: 166px;
+  font-family: "Open sans", sans-serif;
   background-color: rgb(50, 50, 50);
-  font-family: "Open Sans", sans-serif;
-  font-size: 10px;
-  line-height: 1.5;
+}
+
+.card-icon::before {
+  content: "\f0c4";
+
 }
 
 .icons-item a {
   display: inline-block;
-  width: 100%;
   height: 100%;
+  width: 100%;
   color: #ffffff;
-  line-height: 1.5;
+  line-height: 48px;
+  vertical-align: middle;
 }
 
 .goods-wrapp {
@@ -332,4 +340,20 @@ h2::after {
     #7fd9c7,
     #7fd9c7 24%
   );
+}
+
+.page-footer {
+  min-height: 90px;
+  text-align: center;
+  background-color: #323232;
+}
+
+.page-footer p {
+  line-height: 90px;
+  font-family: "Open sans", sans-serif;
+  color: #ffffff;
+}
+
+.page-footer a {
+  color: #46bfa9;
 }
