@@ -1,0 +1,282 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+body {
+  font-family: "Montserrat";
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-header {
+  position: relative;
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.page-header::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.15;
+}
+
+.log-in-on {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+}
+
+.log-in-on:hover {
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+}
+
+.header-logo {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.offer {
+  text-transform: uppercase;
+  font-size: 29px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.sub-offer {
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 17px;
+}
+
+.offer-btn {
+  margin: 0 auto;
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: bold;
+  background-color: #ff4e50;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.offer-btn:hover {
+  background-color: #fc3134;
+}
+
+.partners-title {
+  padding-top:  67px;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 17px;
+}
+
+.image-wrap {
+  margin: 0 auto;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.icons-wrap {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  right: 0;
+  bottom: 0;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon1 {
+  background-color: #ff4e50;
+  background-image: url(../img/icons/ico1.png);
+}
+
+.icon2 {
+  background-color: #ffa507;
+  background-image: url(../img/icons/ico2.png);
+}
+
+.icon3 {
+  background-color: #1cd7ad;
+  background-image: url(../img/icons/ico3.png);
+}
+
+.icon4 {
+  background-color: #4e73db;
+  background-image: url(../img/icons/ico4.png);
+}
+
+.partners-name,
+.about-partners {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.partners-name {
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.about-partners {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #666666;
+}
+
+.partners-btn {
+  margin-left: 5px;
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 38px;
+  font-weight: bold;
+  color: #ff4e50;
+  border: 2px solid #ff4e50;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.partners-btn:hover {
+  background-color: #fc3134;
+  color: #ffffff;
+}
+
+
+@media (max-width: 747px) {
+
+.wrapp {
+  padding-top: 20px;
+  padding-bottom: 138px;
+}
+
+.header-logo {
+  padding-top: 115px;
+  margin-bottom: 34px;
+}
+
+.sub-offer {
+  width: 220px;
+}
+
+.partners {
+  padding-bottom: 57px;
+}
+
+.partners-list [class*="col-"]:not(:last-child) {
+ margin-bottom: 26px;
+}
+
+.partners-list {
+  margin-bottom: 28px;
+}
+
+}
+
+@media (min-width: 748px) {
+
+.header-sub {
+  margin-bottom: 155px;
+}
+
+.offer {
+font-size: 52px;
+line-height: 62px;
+margin-bottom: 38px;
+}
+
+.sub-offer {
+margin-bottom: 38px;
+}
+
+.wrapp {
+padding-top: 44px;
+padding-bottom: 234px;
+}
+
+.partners-title {
+padding-top: 68px;
+margin-bottom: 30px;
+}
+
+.partners-list {
+  margin-bottom: 35px;
+}
+
+
+@media (min-width: 748px) and (max-width: 939px) {
+
+.partners-list [class*="col-"]:nth-child(-n+2) {
+  margin-bottom: 58px;
+}
+
+.partners {
+  padding-bottom: 40px;
+}
+}
+
+@media (min-width: 940px) {
+
+.partners {
+  padding-bottom: 72px;
+}
+}
+
+
+
+
+
+
+
+
+
