@@ -349,7 +349,6 @@ img {
 /* Footer */
 
 .page_footer {
-  background-color: #fff;
   width: 100%;
 }
 .page_footer__content {
@@ -378,7 +377,6 @@ img {
 }
 
 .page_footer__right-container button[name="submit"] {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #fff;
   width: 150px;
