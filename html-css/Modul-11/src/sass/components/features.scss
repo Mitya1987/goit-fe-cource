@@ -1,0 +1,67 @@
+.features__list {
+  @include space-between-flex('sb-wrap');
+  @extend %list;
+}
+
+.features__item {
+  position: relative;
+  flex-basis: 380px;
+  padding-left: 80px;
+  margin-bottom: 100px;
+}
+
+.features__title {
+  font-size: $main-font-size;
+  line-height: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: $secondary-dark-color;
+}
+
+.features__text,
+.section__text {
+  @extend %text-set;
+}
+
+.section__text {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.features__icon {
+  &::before {
+    position: absolute;
+    left: 20px;
+    @include pseudo(inline-block, '');
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--alarm::before {
+    background-image: url(/src/images/ALARM.png);
+  }
+
+  &--graph::before {
+    background-image: url(/src/images/LINEGRAPH.png);
+  }
+
+  &--computer::before {
+    background-image: url(/src/images/COMPUTER.png);
+  }
+
+  &--book::before {
+    background-image: url(/src/images/BOOK.png);
+  }
+
+  &--home::before {
+    background-image: url(/src/images/HOME.png);
+  }
+
+  &--image::before {
+    background-image: url(/src/images/IMAGE.png);
+  }
+}

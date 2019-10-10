@@ -1,0 +1,11 @@
+.page-header {
+    margin: 0 auto;
+    @include bg-image($path: '/src/images/header-bg.png', $size: cover, $repeat: no-repeat, $pos: center);
+    padding-bottom: 230px;
+
+   @media (min-resolution:192dpi), (min-resolution:2dppx) {
+      .page-header {
+        @include bg-image($path: '/src/images/header-bg2x.png', $size: cover, $repeat: no-repeat, $pos: center);
+      }
+    }
+  }

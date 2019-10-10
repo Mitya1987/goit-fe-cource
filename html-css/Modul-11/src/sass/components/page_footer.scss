@@ -1,0 +1,58 @@
+.page_footer {
+  width: 100%;
+}
+.page_footer__content {
+  @include space-between-flex('all')
+  border-top: 1px solid #e5e5e5;
+  min-height: 65px;
+}
+
+.page_footer__left-container a {
+  color: $secondary-red-color;
+  display: inline;
+}
+
+.page_footer__right-container form {
+  display: inline-flex;
+}
+
+.page_footer__right-container input[name="e-mail"] {
+  width: 230px;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  margin: 0;
+}
+
+.page_footer__right-container button[name="submit"] {
+  font-weight: 700;
+  color: $primary-white-color;
+  width: 150px;
+  margin: 0;
+  border: none;
+  background-color: #95e1d3;
+  padding: 0;
+  line-height: 2.6;
+  transition: all 200ms linear;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $secondary-red-color;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: $secondary-gray-color;
+  font-style: italic;
+}
+::-moz-placeholder {
+  color: $secondary-gray-color;
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  color: $secondary-gray-color;
+  font-style: italic;
+}
+:-moz-placeholder {
+  color: $secondary-gray-color;
+  font-style: italic;
+}

@@ -1,0 +1,47 @@
+@mixin font-settings($size, $height) {
+    font-size: $size;
+    line-height: $height;
+  }
+  
+  @mixin pseudo($display: block, $content: '') {
+    display: $display;
+    content: $content;
+  }
+  
+  @mixin bg-image($path: '', $size: cover, $repeat: no-repeat, $pos: center) {
+    background-image: url($path);
+    background-size: $size;
+    background-repeat: $repeat;
+    background-position: $pos;
+  }
+  
+  @mixin center-flex($type: 'all') {
+    display: flex;
+  
+    @if $type== 'all' {
+      justify-content: center;
+      align-items: center;
+    } @else if $type== 'hor' {
+      justify-content: center;
+    } @else if $type== 'ver' {
+      align-items: center;
+    }
+  }
+
+  @mixin space-between-flex($type: 'all') {
+    display: flex;
+  
+    @if $type== 'all' {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    } @else if $type== 's-b' {
+      justify-content: space-between;
+    } @else if $type== 'wrap' {
+      flex-wrap: wrap;
+    }
+      @else if $type== 'sb-wrap' {
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }

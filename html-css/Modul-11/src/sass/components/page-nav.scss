@@ -1,0 +1,5 @@
+.page-nav {
+    min-height: 80px;
+    @include space-between-flex('s-b')
+    margin-bottom: 173px;
+  }

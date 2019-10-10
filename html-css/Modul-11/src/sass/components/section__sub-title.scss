@@ -1,0 +1,17 @@
+.section__sub-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $secondary-dark-color;
+
+  &::after {
+    @include pseudo(block, '');
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 65px;
+  }
+}
+

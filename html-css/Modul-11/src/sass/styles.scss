@@ -1,0 +1,29 @@
+/*
+   Import partials below
+*/
+@import 'helpers/veriables';
+@import 'helpers/mixins';
+@import 'helpers/placeolder.scss';
+@import './normalize';
+@import 'helpers/base';
+// Components
+@import 'components/container';
+@import 'components/page-header';
+@import 'components/logo';
+@import 'components/page-nav';
+@import 'components/site-navigation';
+@import 'components/seciton__wrap';
+@import 'components/header__title';
+@import 'components/header__headline';
+@import 'components/header__btn';
+@import 'components/section-servises';
+@import 'components/seciton__title';
+@import 'components/section__sub-title';
+@import 'components/features';
+@import 'components/seciton__wrap--mb';
+@import 'components/team-cards';
+@import 'components/section-team';
+@import 'components/page_footer';
+
+
+

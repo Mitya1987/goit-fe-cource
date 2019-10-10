@@ -1,0 +1,15 @@
+%text-set {
+  font-family: $secondary-font-stack;
+  font-size: 15px;
+  line-height: 24px;
+  color: $secondary-gray-color;
+}
+
+%list {
+    list-style: none;
+  }
+
+%link {
+    display: block;
+    text-decoration: none;
+  }
