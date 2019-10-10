@@ -42,26 +42,26 @@
   }
 
   &--alarm::before {
-    background-image: url(/src/images/ALARM.png);
+    background-image: url(../src/images/ALARM.png);
   }
 
   &--graph::before {
-    background-image: url(/src/images/LINEGRAPH.png);
+    background-image: url(../src/images/LINEGRAPH.png);
   }
 
   &--computer::before {
-    background-image: url(/src/images/COMPUTER.png);
+    background-image: url(../src/images/COMPUTER.png);
   }
 
   &--book::before {
-    background-image: url(/src/images/BOOK.png);
+    background-image: url(../src/images/BOOK.png);
   }
 
   &--home::before {
-    background-image: url(/src/images/HOME.png);
+    background-image: url(../src/images/HOME.png);
   }
 
   &--image::before {
-    background-image: url(/src/images/IMAGE.png);
+    background-image: url(../src/images/IMAGE.png);
   }
 }
