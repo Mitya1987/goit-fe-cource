@@ -429,7 +429,7 @@ img {
 
 .page-header {
   margin: 0 auto;
-  background-image: url("../src/images/header-bg.png");
+  background-image: url("../../src/images/header-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -598,27 +598,27 @@ img {
 }
 
 .features__icon--alarm::before {
-  background-image: url(../src/images/ALARM.png);
+  background-image: url(../../src/images/ALARM.png);
 }
 
 .features__icon--graph::before {
-  background-image: url(../src/images/LINEGRAPH.png);
+  background-image: url(../../src/images/LINEGRAPH.png);
 }
 
 .features__icon--computer::before {
-  background-image: url(../src/images/COMPUTER.png);
+  background-image: url(../../src/images/COMPUTER.png);
 }
 
 .features__icon--book::before {
-  background-image: url(../src/images/BOOK.png);
+  background-image: url(../../src/images/BOOK.png);
 }
 
 .features__icon--home::before {
-  background-image: url(../src/images/HOME.png);
+  background-image: url(../../src/images/HOME.png);
 }
 
 .features__icon--image::before {
-  background-image: url(../src/images/IMAGE.png);
+  background-image: url(../../src/images/IMAGE.png);
 }
 
 .seciton__wrap--mb {
@@ -784,7 +784,7 @@ img {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .page-header .page-header {
-    background-image: url("../src/images/header-bg2x.png");
+    background-image: url("../../src/images/header-bg2x.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
