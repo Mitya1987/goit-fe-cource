@@ -1,8 +1,8 @@
 .site-navigation {
     @include space-between-flex('s-b')
     @extend %list;
-    width: 490px;
-    padding-top: 30px;
+    align-items: center;
+    flex-basis: 490px;
     text-transform: uppercase;
   }
   
@@ -29,6 +29,6 @@
    }
 
    &:hover::after {
-    width: 100%;
+    width: 100%; 
   }
    }

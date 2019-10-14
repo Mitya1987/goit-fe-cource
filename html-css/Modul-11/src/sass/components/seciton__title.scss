@@ -1,8 +1,10 @@
 .seciton__title {
+    display: block;
     font-size: 24px;
     font-family: $title-font-stack;
     color: $secondary-dark-color;
     line-height: 1.2;
     font-weight: 400;
     margin-bottom: 20px;
+    text-transform: none;
   }

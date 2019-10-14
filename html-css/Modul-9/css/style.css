@@ -124,8 +124,10 @@ a {
   margin-bottom: 20px;
 }
 
-.icons-wrap {
+.icon-wrap::after {
   position: absolute;
+  content: '';
+  display: block;
   width: 37px;
   height: 37px;
   right: 0;
@@ -136,22 +138,22 @@ a {
   background-position: center;
 }
 
-.icon1 {
-  background-color: #ff4e50;
-  background-image: url(../img/icons/ico1.png);
+.icon1::after {
+background-color: #ff4e50;
+background-image: url(../img/icons/ico1.png);
 }
 
-.icon2 {
+.icon2::after {
   background-color: #ffa507;
   background-image: url(../img/icons/ico2.png);
 }
 
-.icon3 {
+.icon3::after {
   background-color: #1cd7ad;
   background-image: url(../img/icons/ico3.png);
 }
 
-.icon4 {
+.icon4::after {
   background-color: #4e73db;
   background-image: url(../img/icons/ico4.png);
 }

@@ -1,4 +1,6 @@
 .logo {
+    display: flex;
+    align-items: center; 
     margin: 0;
   }
   
@@ -8,5 +10,5 @@
       font-family: $main-font-stack;
       color: $primary-white-color;
       font-weight: bold;
-      line-height: 80px;
+      line-height: 36px;
   }
