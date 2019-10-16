@@ -490,6 +490,15 @@ img {
   width: 100%;
 }
 
+.site-navigation__link svg {
+  fill: #fff;
+}
+
+.site-navigation__link svg:hover {
+  fill: #fce38a;
+}
+
+
 .seciton__wrap {
   text-align: center;
 }
@@ -682,6 +691,10 @@ img {
 
 .social-icons__item:not(:last-child) {
   margin-right: 1px;
+}
+
+.social-icons__item:hover {
+  background-color: #95e1d3;
 }
 
 .social-icons__item:hover svg {

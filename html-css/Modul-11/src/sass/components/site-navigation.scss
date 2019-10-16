@@ -32,3 +32,12 @@
     width: 100%; 
   }
    }
+
+  
+  .site-navigation__link svg {
+    fill: $primary-white-color;
+
+    &:hover {
+      fill: $secondary-yellow-color;
+    }
+  }
