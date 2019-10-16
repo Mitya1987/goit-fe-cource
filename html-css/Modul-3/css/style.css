@@ -19,7 +19,7 @@ img {
     height: auto;
 }
 
-.conteiner {
+.container {
     width: 900px;
     margin: 0 auto;
 }
@@ -33,10 +33,10 @@ body {
 
 
 .nav-menu {
-    display: inline-block;
+    width: 600px;
+    margin: 0 auto;
     font-size: 0;
     list-style: none;
-    text-align: center;
     padding: 75px 0 95px 0;
 }
 
@@ -51,7 +51,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: #626262;
-    padding: 0 60px 0 60px;
+    padding: 0 40px;
 }
 
 .nav-menu-item a:hover,
@@ -65,7 +65,7 @@ body {
 }
 
 .article-item:nth-last-child(2n) {
-    margin-right: 56px;
+    margin-right: 60px;
 }
 
 .article-item:nth-child(-n+4) {
@@ -92,8 +92,12 @@ body {
 
 .article-list {
     margin-bottom: 50px;
+    font-size: 0;
 }
 
+.article-text {
+    font-size: 14px;
+}
 .main {
     padding-bottom: 50px;
 }
