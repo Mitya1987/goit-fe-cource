@@ -651,6 +651,7 @@ img {
 }
 
 .card_image-wrap {
+  position: relative;
   transition: transform 200ms linear;
 }
 
@@ -663,6 +664,10 @@ img {
 }
 
 .card__overley {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
